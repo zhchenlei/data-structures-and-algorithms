@@ -1,34 +1,44 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+# 编译输出
 *.class
+*.jar
+*.war
+*.ear
 
-# Executables
+# 日志文件
+*.log
+
+# 临时文件
+*.tmp
+*.swp
+*.swo
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# IDE 配置文件
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+
+# VS Code
+.vscode/
+
+# 测试/运行时生成
 *.exe
 *.out
-*.app
-*.json
+*.obj
+
+# Maven/Gradle 缓存
+target/
+build/
+.gradle/
+.mvn/
+
