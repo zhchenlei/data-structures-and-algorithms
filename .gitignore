@@ -35,6 +35,7 @@ bin/
 *.exe
 *.out
 *.obj
+*.o
 
 # Maven/Gradle 缓存
 target/
