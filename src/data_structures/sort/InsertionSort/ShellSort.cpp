@@ -20,7 +20,7 @@ void shellsort(int a[], int n)
             }
         }
     }
-    while(gap > 1); //增量为1时，最后进行一次普通插入排序
+    while(gap > 1); //增量为1时，最后进行一次普通插入排序,
 }
 
 void printarr(int a[], int n)
